@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Добавление нового продукта</h2>
+<form >
+    <label >
+        <p>Название продукта: </p>
+        <input type="text" name="name" placeholder="Велосипед...">
+    </label>
+
+    <label >
+        <p> Цена : </p>
+        <input type="number" min="0" name="price" placeholder="10000">
+    </label>
+    <label >
+        <p>Кол-во: </p>
+        <input type="number" min="0" max="10" name="count" placeholder="Не более 10">
+    </label>
+    <label >
+        <p>Категория:</p>
+        <select name="category">
+        <option value="sport"></option>
+        <option value="house"></option>
+        <option value="home"></option>
+        <option value="hobby"></option>
+        <option value="gift"></option>
+    </select>
+    </label>
+
+
+<button>Отправить</button>
+
+</form>
+<h2>Форма аутентификации</h2>
+<label >
+    <p>Имя пользователя: </p>
+    <input type="text" name="name" placeholder="Укажите имя">
+</label>
+<label >
+    <p>Пароль пользователя: </p>
+    <input type="text" name="name" placeholder="Введите пароль">
+</label>
+<button>Войти</button>
+</form>
+<form action="https://jsonplaceholder.typicode.com/guide/" method="post">
+<input type="text" name="title" placeholder="title">
+<input type="text" name="body" placeholder="body">
+<input type="number" name="userId" placeholder="userId">
+<button>Отправить</button>
+</form>
+</body>
+</html> 
